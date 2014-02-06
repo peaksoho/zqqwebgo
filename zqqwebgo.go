@@ -8,13 +8,13 @@ package zqqwebgo
 import (
 	"flag"
 	"fmt"
+	"github.com/peaksoho/zqqwebgo/session"
+	"github.com/peaksoho/zqqwebgo/zqqjsongo"
 	"log"
 	"net/http"
 	"os"
 	"runtime"
 	"strconv"
-	"zqqwebgo/session"
-	"zqqwebgo/zqqjsongo"
 )
 
 const VERSION = "0.0.1"

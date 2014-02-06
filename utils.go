@@ -2,11 +2,11 @@ package zqqwebgo
 
 import (
 	"fmt"
+	"github.com/peaksoho/zqqwebgo/blackfriday"
 	"html/template"
 	"regexp"
 	"strings"
 	"time"
-	"zqqwebgo/blackfriday"
 )
 
 func webTime(t time.Time) string {

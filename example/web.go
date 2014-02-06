@@ -1,8 +1,8 @@
 package main
 
 import (
-	"zqqwebgo"
-	"zqqwebgo/example/controllers"
+	"github.com/peaksoho/zqqwebgo"
+	"github.com/peaksoho/zqqwebgo/example/controllers"
 )
 
 func main() {

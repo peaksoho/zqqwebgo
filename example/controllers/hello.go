@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"fmt"
-	"zqqwebgo"
+	"github.com/peaksoho/zqqwebgo"
 )
 
 type Hello struct {
