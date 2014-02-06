@@ -1,0 +1,12 @@
+{
+"HttpAddr":"",
+"HttpPort":9090,
+"StaticDir":{"/static":"static"}, /*静态文件保存目录*/ 
+"ViewsPath":"views/",
+"MaxMemory":67108864,	//占用内存大小，默认64M*/ 
+"SessionOn":true,
+"SessionProvider":"memory",
+"SessionName":"sessionID",
+"SessionGCMaxLifetime":36000,	/* 10 hours */
+"SessionSavePath":"./session/"
+}
